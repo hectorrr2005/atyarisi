@@ -4,7 +4,7 @@ import os
 import time
 import shutil
 
-conn = psycopg2.connect("dbname='atyarisi' user='admin' host='localhost' password='56tyghbn'")
+conn = psycopg2.connect("dbname='atyarisi' user='user' host='localhost' password='password'")
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROJECT_DIR = os.path.join(BASE_DIR, 'atyarisi')
